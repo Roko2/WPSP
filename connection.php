@@ -4,6 +4,7 @@ $oVeza=new Configuration();
 try
 {
  $oConnection = new PDO("mysql:host=$oVeza->host;dbname=$oVeza->dbname", $oVeza->username, $oVeza->password);
+
 }
 catch (PDOException $pe)
 {
